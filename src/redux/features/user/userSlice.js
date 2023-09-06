@@ -1,10 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  name: 'mr',
+  name: 'Jubair',
   email: 'email@mail.com',
-  userTask:[]
-}
+ 
+};
 
 const userSlice = createSlice({
   name:'userSlice',
@@ -12,4 +12,4 @@ const userSlice = createSlice({
   reducers:{}
 })
 
-export default userSlice.reducer;
+export default userSlice.reducer; 

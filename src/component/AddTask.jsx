@@ -42,10 +42,10 @@ const dispatch = useDispatch();
         <label htmlFor='assign'>Assign To</label>
         {/* <input className='flex flex-col mb-2 w-full rounded-md' type="text" {...register('assign')} /> */}
         <select  className='flex flex-col mb-2 w-full rounded-md' {...register('assign')}>
-          <option value="Mr">Mr</option>
-          <option value="Mrs">Mrs</option>
-          <option value="Miss">Miss</option>
-          <option value="Dr">Dr</option>
+          <option value="Mr">Jubair</option>
+          <option value="Mrs">Jaber</option>
+          <option value="Miss">Bata Mukh</option>
+          <option value="Dr">Sobin Tel</option>
         </select>
 
       </div>
